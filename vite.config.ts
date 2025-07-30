@@ -4,10 +4,10 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: './', // или 'frontend' если в общей папке
+  root: './', 
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'front') // ← путь к новой папке
+      '@': path.resolve(__dirname, 'Frontend') 
     }
   }
 })
