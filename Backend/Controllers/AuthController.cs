@@ -8,10 +8,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using WebBack_Lab_2.Data;
-using WebBack_Lab_2.Models;
+using WebBack_Lab_2.Backend.Data;
+using WebBack_Lab_2.Backend.Models;
 
-namespace WebBack_Lab_2.Controllers
+namespace WebBack_Lab_2.Backend.Controllers
 {
     [ApiController]
     [Route("api/auth")]

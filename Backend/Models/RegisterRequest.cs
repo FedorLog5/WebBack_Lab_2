@@ -1,4 +1,4 @@
-﻿namespace WebBack_Lab_2.Models
+﻿namespace WebBack_Lab_2.Backend.Models
 {
     public class RegisterRequest
     {

@@ -1,6 +1,6 @@
-﻿using WebBack_Lab_2.Data;
+﻿using WebBack_Lab_2.Backend.Data;
 
-namespace WebBack_Lab_2.Models
+namespace WebBack_Lab_2.Backend.Models
 {
     public class Favorite
     {

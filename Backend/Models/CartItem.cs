@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebBack_Lab_2.Models
+namespace WebBack_Lab_2.Backend.Models
 {
     public class CartItem
     {

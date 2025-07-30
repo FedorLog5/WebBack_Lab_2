@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using WebBack_Lab_2.Data;
+using WebBack_Lab_2.Backend.Data;
 
-namespace WebBack_Lab_2.Services.Adm
+namespace WebBack_Lab_2.Backend.Services
 {
     public class DataSeeder
     {

@@ -1,4 +1,4 @@
-﻿namespace WebBack_Lab_2.DTOs
+﻿namespace WebBack_Lab_2.Backend.DTOs
 {
     public class CartDto
     {
