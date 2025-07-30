@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using WebBack_Lab_2.Data;
-using WebBack_Lab_2.Services.Adm;
+using WebBack_Lab_2.Backend.Data;
+using WebBack_Lab_2.Backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

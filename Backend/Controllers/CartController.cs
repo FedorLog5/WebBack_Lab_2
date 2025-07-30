@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
-using WebBack_Lab_2.Data;
-using WebBack_Lab_2.Models;
-using WebBack_Lab_2.DTOs;
+using WebBack_Lab_2.Backend.Data;
+using WebBack_Lab_2.Backend.Models;
+using WebBack_Lab_2.Backend.DTOs;
 
 
-namespace WebBack_Lab_2.Controllers
+namespace WebBack_Lab_2.Backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

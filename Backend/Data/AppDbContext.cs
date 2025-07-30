@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WebBack_Lab_2.Models;
-namespace WebBack_Lab_2.Data
+using WebBack_Lab_2.Backend.Models;
+
+namespace WebBack_Lab_2.Backend.Data
 { 
     public class AppUser : IdentityUser 
     {

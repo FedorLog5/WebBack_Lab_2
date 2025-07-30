@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
-using WebBack_Lab_2.Data;
+using WebBack_Lab_2.Backend.Data;
 
 [Route("api/user")]
 [ApiController]

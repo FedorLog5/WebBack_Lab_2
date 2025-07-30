@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebBack_Lab_2.Data;
-using WebBack_Lab_2.Models;
+using WebBack_Lab_2.Backend.Data;
+using WebBack_Lab_2.Backend.Models;
 
-namespace WebBack_Lab_2.Controllers
+namespace WebBack_Lab_2.Backend.Controllers
 {
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
