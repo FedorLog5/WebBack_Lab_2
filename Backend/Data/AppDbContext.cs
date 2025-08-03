@@ -21,11 +21,7 @@ namespace WebBack_Lab_2.Backend.Data
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<PurchaseHistory> PurchaseHistory { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=ProductShop;Username=postgres;Password=qwerty");
-        }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
