@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../Stores/useAuth";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "./ProductCard";
 
 const FavoritesPage: React.FC = () => {
   const [favorites, setFavorites] = useState([]);

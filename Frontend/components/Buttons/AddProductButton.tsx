@@ -35,7 +35,7 @@ function AddProductButton({ onProductAdded }: AddProductButtonProps) {
       const response = await fetch("http://localhost:5283/api/products", {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${token}`, // Не указывай Content-Type вручную!
+          Authorization: `Bearer ${token}`, 
         },
         body: data,
       });
